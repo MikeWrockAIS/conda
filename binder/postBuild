@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Install global npm packages
-npm install -g $(cut -d# -f1 <binder/npm.txt)
 
 # Install claat
 # wget -P /usr/local/bin https://github.com/googlecodelabs/tools/releases/download/v2.2.0/claat-linux-amd64
